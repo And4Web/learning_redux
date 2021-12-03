@@ -10,4 +10,4 @@ export const userSlice = createSlice({
   }
 })
 
-export default userSlice.reducers;
+export default userSlice.reducer;
