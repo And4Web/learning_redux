@@ -1,10 +1,13 @@
 import React from 'react';
+import {useDispatch} from 'react-redux'
+
 
 function ChangeColor() {
+  const dispatch = useDispatch();
   return (
     <div>
       <input type='text' onChange={}/>
-      <button>Change Color</button>
+      <button onClick={()=>{dispatch()}}>Change Color</button>
     </div>
   )
 }
